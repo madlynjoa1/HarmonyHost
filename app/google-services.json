@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "551680822351",
+    "project_id": "spotify-d443e",
+    "storage_bucket": "spotify-d443e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:551680822351:android:d7e177da1b0d830145ee3a",
+        "android_client_info": {
+          "package_name": "com.androidclass.harmonyhost"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "551680822351-s2edm3cjq36vie43hf6dvq827kpu0f71.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.androidclass.harmonyhost",
+            "certificate_hash": "0dc7d8fc418d329fa8db08f842358ef24b158446"
+          }
+        },
+        {
+          "client_id": "551680822351-rm2cut128fk2b1pu9pjmsn90juldo90o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCocQIUPG4vpdadbwgJAbQJl_WRb5m1p50"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "551680822351-rm2cut128fk2b1pu9pjmsn90juldo90o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

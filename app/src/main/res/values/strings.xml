@@ -5,4 +5,8 @@
     <string name="err_pass">Capital and small letter symbol number</string>
     <string name="err_dob">Incorrect date of birth</string>
     <string name="err_con_pass">Capital and small letter symbol number</string>
+    <string name="sign_out">sign_out</string>
+    <string name="disconnect">disconnect</string>
+    <string name="loading">disconnect</string>
+    <string name="logout">logout</string>
 </resources>

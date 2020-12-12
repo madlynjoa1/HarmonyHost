@@ -12,4 +12,6 @@
     <color name="black">#000000</color>
     <color name="lightGray">#efefef</color>
     <color name="colorPrimary">#190b42</color>
+    <color name="colorStickyBg">#00897B</color>
+    <color name="colorSticky">#074D71</color>
 </resources>

@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //inside here we put from where we start to what activity we continue to
-                Intent intent= new Intent(MainActivity.this,Login.class);
+                Intent intent= new Intent(MainActivity.this,GoogleSignIn.class);
                 startActivity(intent);
             }
         });
