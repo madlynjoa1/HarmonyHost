@@ -1,7 +1,5 @@
 package com.androidclass.harmonyhost;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -9,6 +7,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.basgeekball.awesomevalidation.AwesomeValidation;
 
@@ -54,8 +54,6 @@ public class Register extends AppCompatActivity {
         awesomeValidation.addValidation(Register.this, R.id.passwordETRegisterET,regexPassword,R.string.err_pass);
         awesomeValidation.addValidation(Register.this, R.id.confirmPasswordRegisterET,regexPassword,R.string.err_con_pass);
 
-
-
         registerButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -89,7 +87,6 @@ public class Register extends AppCompatActivity {
                     //if email incorrect display invalis
                     Toast.makeText(getApplicationContext(), "invalid inputs", Toast.LENGTH_LONG).show();
                 }
-
 
             }
         });

@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".GoogleSignIn">
+    tools:context=".GoogleSignIn"
+    android:background="@drawable/plainbackground_harmony">
 
     <ImageView
         android:layout_width="match_parent"
@@ -15,7 +16,8 @@
     <TextView
         android:id="@+id/profile"
         android:layout_below="@id/logo"
-        tools:text="@string/app_name"
+        tools:text="User Name"
+        android:textColor="#ffffff"
         android:layout_height="40dp"
         android:layout_width="wrap_content" />
 
@@ -32,7 +34,10 @@
         android:id="@+id/sign_out_and_disconnect"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/profile"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="110dp"
+        android:layout_marginBottom="573dp"
         android:orientation="horizontal"
         android:visibility="gone"
         tools:visibility="visible">
@@ -52,6 +57,15 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/disconnect" />
+
+        <Button
+            android:id="@+id/back_button"
+            style="?android:attr/button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Go Back" />
+
 
     </LinearLayout>
 

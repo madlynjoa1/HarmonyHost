@@ -40,7 +40,6 @@ public class GoogleSignIn extends BaseActivity implements GoogleApiClient.OnConn
     private ImageView mImageView;
     private TextView mTextViewProfile;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

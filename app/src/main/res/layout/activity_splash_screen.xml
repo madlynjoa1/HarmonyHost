@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@android:color/holo_blue_dark"
+    tools:context=".SplashScreen">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:layout_marginVertical="20dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:text="Harmony Host"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:textSize="40sp"/>
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:layout_marginVertical="00dp"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:text="Hello there! This should just take a couple seconds!"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:textSize="40sp"/>
+</LinearLayout>

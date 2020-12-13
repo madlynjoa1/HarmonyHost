@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,6 +8,410 @@
     android:background="@drawable/plainbackground_harmony"
     tools:context=".Vote">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_margin="1dp"
+            android:padding="1dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/textView1"
+                android:layout_height="wrap_content"
+                android:minHeight="30dp"
+                android:text="All I Want for Christmas Is You"
+                android:padding="1dp"
+                android:textSize="20sp"
+                android:fontFamily="@font/kanit_regular"
+                android:textColor="#ffffff"/>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_dislike"
+                android:padding="9dp"
+                android:background="@android:color/transparent"
+                android:id="@+id/like_btn1"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:text="Likes"
+                android:textColor="@color/white"
+                android:id="@+id/likes_textview1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_margin="1dp"
+            android:padding="1dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2"
+                android:minHeight="30dp"
+                android:text="All I Want for Christmas Is You"
+                android:padding="1dp"
+                android:textSize="20sp"
+                android:fontFamily="@font/kanit_regular"
+                android:textColor="#ffffff"/>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_dislike"
+                android:padding="9dp"
+                android:background="@android:color/transparent"
+                android:id="@+id/like_btn2"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:text="Likes"
+                android:textColor="@color/white"
+                android:id="@+id/likes_textview2"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_margin="1dp"
+            android:padding="1dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3"
+                android:minHeight="30dp"
+                android:text="All I Want for Christmas Is You"
+                android:padding="1dp"
+                android:textSize="20sp"
+                android:fontFamily="@font/kanit_regular"
+                android:textColor="#ffffff"/>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_dislike"
+                android:padding="9dp"
+                android:background="@android:color/transparent"
+                android:id="@+id/like_btn3"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:text="Likes"
+                android:textColor="@color/white"
+                android:id="@+id/likes_textview3"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_dislike"
+                android:padding="9dp"
+                android:background="@android:color/transparent"
+                android:id="@+id/like_btn"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:textColor="@android:color/black"
+                android:hint="likes"
+                android:id="@+id/likes_textview"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_baseline_comment"
+                android:background="@android:color/transparent"
+                android:id="@+id/comment_activity_open"
+                android:layout_marginLeft="50dp"
+                android:padding="5dp"/>
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_margin="1dp"
+            android:padding="1dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4"
+                android:minHeight="30dp"
+                android:text="All I Want for Christmas Is You"
+                android:padding="1dp"
+                android:textSize="20sp"
+                android:fontFamily="@font/kanit_regular"
+                android:textColor="#ffffff"/>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_dislike"
+                android:padding="9dp"
+                android:background="@android:color/transparent"
+                android:id="@+id/like_btn4"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:text="Likes"
+                android:textColor="@color/white"
+                android:id="@+id/likes_textview4"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_margin="1dp"
+            android:padding="1dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView5"
+                android:minHeight="30dp"
+                android:text="All I Want for Christmas Is You"
+                android:padding="1dp"
+                android:textSize="20sp"
+                android:fontFamily="@font/kanit_regular"
+                android:textColor="#ffffff"/>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_dislike"
+                android:padding="9dp"
+                android:background="@android:color/transparent"
+                android:id="@+id/like_btn5"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:text="Likes"
+                android:textColor="@color/white"
+                android:id="@+id/likes_textview5"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_margin="1dp"
+            android:padding="1dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView6"
+                android:minHeight="30dp"
+                android:text="All I Want for Christmas Is You"
+                android:padding="1dp"
+                android:textSize="20sp"
+                android:fontFamily="@font/kanit_regular"
+                android:textColor="#ffffff"/>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_dislike"
+                android:padding="9dp"
+                android:background="@android:color/transparent"
+                android:id="@+id/like_btn6"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:text="Likes"
+                android:textColor="@color/white"
+                android:id="@+id/likes_textview6"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_margin="1dp"
+            android:padding="1dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView7"
+                android:minHeight="30dp"
+                android:text="All I Want for Christmas Is You"
+                android:padding="1dp"
+                android:textSize="20sp"
+                android:fontFamily="@font/kanit_regular"
+                android:textColor="#ffffff"/>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_dislike"
+                android:padding="9dp"
+                android:background="@android:color/transparent"
+                android:id="@+id/like_btn7"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:text="Likes"
+                android:textColor="@color/white"
+                android:id="@+id/likes_textview7"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_margin="1dp"
+            android:padding="1dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView8"
+                android:minHeight="30dp"
+                android:text="All I Want for Christmas Is You"
+                android:padding="1dp"
+                android:textSize="20sp"
+                android:fontFamily="@font/kanit_regular"
+                android:textColor="#ffffff"/>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_dislike"
+                android:padding="9dp"
+                android:background="@android:color/transparent"
+                android:id="@+id/like_btn8"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:text="Likes"
+                android:textColor="@color/white"
+                android:id="@+id/likes_textview8"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_margin="1dp"
+            android:padding="1dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView9"
+                android:minHeight="30dp"
+                android:text="All I Want for Christmas Is You"
+                android:padding="1dp"
+                android:textSize="20sp"
+                android:fontFamily="@font/kanit_regular"
+                android:textColor="#ffffff"/>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_dislike"
+                android:padding="9dp"
+                android:background="@android:color/transparent"
+                android:id="@+id/like_btn9"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:text="Likes"
+                android:textColor="@color/white"
+                android:id="@+id/likes_textview9"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_margin="1dp"
+            android:padding="1dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView10"
+                android:minHeight="30dp"
+                android:text="All I Want for Christmas Is You"
+                android:padding="1dp"
+                android:textSize="20sp"
+                android:fontFamily="@font/kanit_regular"
+                android:textColor="#ffffff"/>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_dislike"
+                android:padding="9dp"
+                android:background="@android:color/transparent"
+                android:id="@+id/like_btn10"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:text="Likes"
+                android:textColor="@color/white"
+                android:id="@+id/likes_textview10"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#0f0"
+            android:padding="1dp"
+            android:text="Submit"
+            android:layout_margin="1dp"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</LinearLayout>
