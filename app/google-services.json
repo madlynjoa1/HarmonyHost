@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "551680822351",
+    "firebase_url": "https://spotify-d443e-default-rtdb.firebaseio.com",
     "project_id": "spotify-d443e",
     "storage_bucket": "spotify-d443e.appspot.com"
   },

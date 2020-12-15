@@ -4,9 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:layout_gravity="center"
-    android:background="@drawable/harmonyh_splash_screen"
-    tools:context=".SplashScreen">
+    tools:context=".VotingRoom">
 
 </androidx.constraintlayout.widget.ConstraintLayout>
